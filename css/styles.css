@@ -1,4 +1,19 @@
+@font-face {
+    font-family: 'FormaDJR';
+      src: url('tipos/FormaDJRMicro-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+          url('tipos/FormaDJRMicro-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+          url('tipos/FormaDJRMicro-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+      font-weight: 400;
+      font-style: normal;
+}
+
+
+
 h1{
     color: rgb(60, 60, 253);
     font-family: 'FormaDJR';
+}
+
+li{
+ color: brown;
 }
