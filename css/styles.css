@@ -1,8 +1,11 @@
 /* probando si se te actualizan mis cambios */
-
+*{
+    font-family: "forma-djr-deck", sans-serif;
+    font-weight: 500;
+    font-style: normal; 
+}
 :root {
     --colorFondo: #e6e6e6;
-    --tipoTitulos: 'Playfair Display', serif;
     --tipoGeneral: 'Unbounded', cursive;
     --color1: #ffffff;
     --color2: #767b99;
@@ -138,7 +141,6 @@ header {
     letter-spacing: 1px;
     text-decoration: none;
     transition: 0.5s;
-    font-family: var(--tipoGeneral);
     font-weight: medium;
 }
   
@@ -173,11 +175,50 @@ header {
 }
 
 #aboutUs{
+    background-image: url(../media/inicio/fondo1.jpg);
+    padding: 2em;
+    height: 120vh;
+}
+#aboutUs > div{
     display: flex;
-    height: 80vh;
+    height: 90vh;
     align-items: center;
     justify-content: center;
+    background-color: #ffffffbe;
+    border-radius: 40px;
+    filter: blur(4px);
+    transition: 1s;
+    flex-direction: column;
 }
+
+#aboutUs > div:hover{
+
+    filter: blur(0.5px);
+
+}
+
+#aboutUs > div > div{
+    display: flex;
+    filter: blur(0);
+    align-items: center;
+}
+.espacio{
+    padding: 10px;
+}
+
+h1{
+    font-family: "forma-djr-deck", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.cursive{
+    font-family: "sloop-script-one", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4em;
+}
+
 
 .fotoAboutUs{
     width: 120px;
