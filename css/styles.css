@@ -6,8 +6,14 @@
 }
 :root {
     --colorFondo: #e6e6e6;
+<<<<<<< Updated upstream
     --tipoGeneral: 'Unbounded', cursive;
     --color1: #ffffff;
+=======
+    --tipoTitulos: "forma-djr-deck", sans-serif;
+    --tipoGeneral: "forma-djr-deck", sans-serif 400;
+    --color1: #000000;
+>>>>>>> Stashed changes
     --color2: #767b99;
     --color3: #000000;
     --color4: #0d1b3b;
@@ -27,7 +33,11 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+<<<<<<< Updated upstream
     background-image: url(../media/inicio/Comp1_1.gif);
+=======
+    background-image: url(../media/img/Captura.png);
+>>>>>>> Stashed changes
     background-color: transparent;
 }
 
