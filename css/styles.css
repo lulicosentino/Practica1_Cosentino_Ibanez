@@ -228,3 +228,7 @@ h1{
 .fotoAboutUs{
     width: 120px;
 }
+
+.img-fluid{
+    padding: 3em;
+}
