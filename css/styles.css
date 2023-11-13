@@ -51,10 +51,10 @@ header {
     justify-content: center;
 }
 #menu li{
-	position:relative;
-	width:120px;
-	height:50px;
-	display:flex;
+    position: relative;
+    width: 150px;
+    height: 50px;
+    display: flex;
 }
 #menu li a{
 	position:absolute;
@@ -64,6 +64,10 @@ header {
 	text-decoration:none;
 	line-height:50px;
 	transition:1s;
+    font-family: "forma-djr-banner", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5em;
     
 }
 
