@@ -12,14 +12,14 @@
     --color2: #767b99;
     --color3: #000000;
     --color4: #0d1b3b;
-    --color5: #3a4f70;
+    --color5: #f4fcff;
 }
 
 header {
     width: 100vw;
     height: 100vh;
     position: sticky;
-    top: calc(-100vh + 3em);
+    top: calc(-100vh + 0em);
     z-index: 10;
     background-size: cover;
     background-position: center;
@@ -32,62 +32,79 @@ header {
 
 }
 
-ul{
-	list-style-type:none;
-	display:flex;
+#menu > li > a > figure > img{
+    transition: 1s;
+}
+
+#menu > li > a > figure > img:hover{
+    transform: rotatez(-20deg);
+}
+
+
+#menu{
+    background-color: #000000d4;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
     position: fixed;
     top: 0;
+    justify-content: center;
 }
-ul li{
-	position:relative;
-	width:120px;
-	height:50px;
-	display:flex;
+#menu li{
+    position: relative;
+    width: 150px;
+    height: 50px;
+    display: flex;
 }
-ul li a{
+#menu li a{
 	position:absolute;
 	left:50%;
 	transform:translateX(-50%);
-	color:#4b6875;
+	color:var(--color5);
 	text-decoration:none;
 	line-height:50px;
 	transition:1s;
+    font-family: "forma-djr-banner", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5em;
     
 }
 
-ul li span{
+#menu li span{
 	width:25%;
-	height:100%;
+	height: 95%;
 	background-color:rgb(31, 30, 30);
 	transform-origin:top;
-	transform:scaleY(0);
+	transform:scalez(0);
 	z-index:-1;
     filter: blur(5px);
 	transition:transform .5s;
 }
-ul li:hover span{
+#menu li:hover span{
 	transform-origin:bottom;
 	transform:scaleY(1);
 }
-ul li:hover a{
-	color:#fff;
+#menu li:hover a{
+	color:rgb(109, 106, 106);
 }
 
-ul li span:first-of-type{
+#menu li span:first-of-type{
 	transition-delay:.1s;
 }
-ul li span:nth-of-type(2){
+#menu li span:nth-of-type(2){
 	transition-delay:.2s;	
 }
-ul li span:nth-of-type(3){
+#menu li span:nth-of-type(3){
 	transition-delay:.3s;
 }
-ul li span:last-of-type{
+#menu li span:last-of-type{
 	transition-delay:.4s;
 }
 
 section{
     background-color: #000000;
+    padding: 0 0 20em 0;
 }
 
 #aboutUs{
@@ -195,4 +212,51 @@ h1{
 
 .images-preview05:hover img:nth-child(4) {
     transform: translate(60px, -60px) rotate(17deg);
+}
+
+.title{
+    color: var(--color5);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 2em 0;
+}
+
+footer{
+    background-color: #000000;
+    color: var(--color5);
+}
+
+footer h3, footer a{
+    color: var(--color5);
+}
+
+#iconos{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+}
+
+#iconos figure{
+    padding: 1em 0.5em;
+}
+
+footer > div{
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer a, footer ul{
+    padding: 1em 0 0 0;
+    list-style-type:none;
+    text-decoration:none;
+}
+
+
+.row {
+    --bs-gutter-x: 0rem;
 }
