@@ -9,7 +9,7 @@
     --color5: #3a4f70;
 }
 
-header#productHtml {
+header#producthtml {
     width: 100vw;
     position: sticky;
     top: calc(-100vh + 5em);
@@ -18,7 +18,8 @@ header#productHtml {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: white !important;
+    background-image: none;
     padding: 1em;
 }
 
@@ -198,5 +199,52 @@ section{
 .carousel-control-prev-icon, .carousel-control-next-icon {
     background-image: url(../media/icons/flecha.svg) !important;
 
+}
+
+
+
+/* footer */
+
+footer{
+    background-color: #ffffff;
+    color: var(--color5);
+}
+
+footer h3, footer a{
+    color: var(--color3);
+}
+
+#iconos{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+}
+
+#iconos figure{
+    padding: 1em 0.5em;
+}
+
+footer > div{
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer a, footer ul{
+    padding: 1em 0 0 0;
+    list-style-type:none;
+    text-decoration:none;
+}
+
+.h5, h5 {
+    font-size: 1.25rem;
+    color: black !important;
+}
+
+
+.row {
+    --bs-gutter-x: 0rem;
 }
 
