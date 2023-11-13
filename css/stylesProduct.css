@@ -126,14 +126,41 @@ header {
 
 section {
     background-color: #ffffff;
-    padding: 0 0 20em 0;
+
 }
 
 
 /* CARRUSEL */
-.carousel-control-prev-icon, .carousel-control-next-icon {
-    background-image: url(../media/icons/flecha.svg) !important;
 
+section#carrusel{
+    margin-top: 5em;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 20% !important;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    width: 8em !important;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../media/producto/flecha1.svg) !important;
+
+}
+.carousel-control-next-icon{
+    background-image: url(../media/producto/flecha2.svg) !important;
+    color: #000000;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    width: 4rem;
+    height: 4rem;
+}
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    display: flex !important;
+    justify-content: center;
 }
 
 
