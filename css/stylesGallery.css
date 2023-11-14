@@ -1,0 +1,66 @@
+/* probando si se te actualizan mis cambios */
+*{
+    font-family: "forma-djr-deck", sans-serif;
+    font-weight: 500;
+    font-style: normal; 
+}
+:root {
+    --colorFondo: #e6e6e6;
+    --tipoTitulos: "forma-djr-deck", sans-serif;
+    --tipoGeneral: "forma-djr-deck", sans-serif 400;
+    --color1: #000000;
+    --color2: #767b99;
+    --color3: #000000;
+    --color4: #0d1b3b;
+    --color5: #f4fcff;
+}
+
+
+
+
+
+
+/* foooterrrr */
+
+footer{
+    background-color: #ffffff;
+    color: var(--color5);
+}
+
+footer h3, footer a{
+    color: var(--color3);
+}
+
+#iconos{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+}
+
+#iconos figure{
+    padding: 1em 0.5em;
+}
+
+footer > div{
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer a, footer ul{
+    padding: 1em 0 0 0;
+    list-style-type:none;
+    text-decoration:none;
+}
+
+.h5, h5 {
+    font-size: 1.25rem;
+    color: black !important;
+}
+
+
+.row {
+    --bs-gutter-x: 0rem;
+}
