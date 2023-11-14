@@ -105,7 +105,7 @@ header {
 /* fin menu */
 
 section{
-    margin-top: 5em;
+    margin-top: 17%;
 }
 
 /* grid-grid-grid-grid */
@@ -113,21 +113,25 @@ section{
     display: flex;
     width: 100%;
     flex-direction: column;
+    column-gap: 10px;
 }
 
-.row{
+div.row{
     display: flex;
+    height: 40vh;
+    border-color: var(--color1);
+    border-width: 1px;
 }
 
 .row>div{
-    width: 28%;
-    height: 40%;
-    border: var(--color1) 1px;
-    margin: 2%;
+    border: var(--color1);
+    border-style: solid;
+    border-width: 0.5px;
 }
 
 .uno{
     background-image: url(../media/galeria/nikon_coolpix3100.jpg);
+    background-size: cover;
 }
 
 /* foooterrrr */
