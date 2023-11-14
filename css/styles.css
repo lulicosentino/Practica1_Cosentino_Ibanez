@@ -32,6 +32,10 @@ header {
 
 }
 
+#menu > li:first-child {
+    display: none;
+}
+
 #menu > li > a > figure > img{
     transition: 1s;
 }
@@ -42,7 +46,7 @@ header {
 
 
 #menu{
-    background-color: #000000d4;
+    background-color: #000000;
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -259,4 +263,64 @@ footer a, footer ul{
 
 .row {
     --bs-gutter-x: 0rem;
+}
+
+@media screen and (max-width:1200px){
+
+    header{
+        background-image: url(../media/inicio/Comp1_2.gif);
+    }
+
+    #menu {
+
+        display: flex;
+        position: fixed;
+        top: 0;
+        justify-content: center;
+        flex-direction: column;
+        align-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+    }
+
+    #menu > li {
+        display: none;
+        width: 0;
+        transition: .3s;
+    }
+
+    #menu > li:first-child {
+        display: inline-block;
+        padding: 1em 0 4em;
+    }
+
+
+    
+    #menu:hover li {
+        display: inline-block;
+    }
+
+    #menu > ul:hover > div > li:first-child {
+        display: none;
+    }
+
+    .images-preview img {
+        padding: 1em;
+    }
+
+    #menu li a {
+        transform: translateX(0%);
+    }
+
+    
+
+}
+
+
+@media screen and (max-width:750px){
+
+    header{
+        background-image: url(../media/inicio/Comp1_3.gif);
+    }
+
 }
