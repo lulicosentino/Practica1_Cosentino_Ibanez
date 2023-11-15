@@ -161,6 +161,8 @@ div.row{
     border-width: 1px;
 }
 
+        /* parte de los likes y carros */
+
 
 .container_up{
     display: flex;
@@ -172,9 +174,13 @@ div.row{
     padding: 7% 0 0 0;
 }
 
-
 .container_up>img{
     height: 25%;
+}
+
+.container_up>img:hover{
+    scale: 130%;
+    transition: .5s ease-out;
 }
 
 .container_down{
@@ -266,6 +272,10 @@ div.row{
     background-size: cover;
 }
 
+.icon-hover:hover{
+    
+}
+
 
 /* foooterrrr */
 
@@ -312,6 +322,8 @@ footer a, footer ul{
     --bs-gutter-x: 0rem;
 }
 
+
+/* MEDIAQUERIESSSSSSSS */
 
 @media screen and (max-width:1200px){
 
@@ -360,6 +372,14 @@ footer a, footer ul{
 
     div.row {
         height: 72vh;
+    }
+
+}
+
+@media screen and (max-width: 991px){
+    /* RINCONES */
+    div#fantasma{
+        display: none;
     }
 
 }
