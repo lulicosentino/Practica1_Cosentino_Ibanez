@@ -303,3 +303,22 @@ footer a, footer ul{
 .row {
     --bs-gutter-x: 0rem;
 }
+
+
+@media screen and (max-width:1200px){
+
+
+    div.row {
+        height: 50vh;
+    }
+
+}
+
+@media screen and (max-width:1200px){
+
+
+    div.row {
+        height: 72vh;
+    }
+
+}
