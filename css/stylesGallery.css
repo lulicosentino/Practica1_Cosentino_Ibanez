@@ -129,6 +129,14 @@ section#galeria{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    filter:brightness(1);
+    transition: 0.5s;
+}
+
+.general-cajas:hover{
+    /* filter: blur(4px); */
+    filter:brightness(1.5);
+
 }
 
 .container{
@@ -310,6 +318,39 @@ footer a, footer ul{
 
     div.row {
         height: 50vh;
+    }
+
+    #menu {
+
+        display: flex;
+        position: fixed;
+        top: 0;
+        justify-content: center;
+        flex-direction: column;
+        align-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+    }
+
+    #menu > li {
+        display: none;
+        width: 0;
+        transition: .3s;
+    }
+
+    #menu > li:first-child {
+        display: inline-block;
+        padding: 1em 0 4em;
+    }
+
+
+    
+    #menu:hover li {
+        display: inline-block;
+    }
+
+    #menu > ul:hover > div > li:first-child {
+        display: none;
     }
 
 }
