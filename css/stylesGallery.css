@@ -272,9 +272,9 @@ div.row{
     background-size: cover;
 }
 
-.icon-hover:hover{
+/* .icon-hover:hover{
     
-}
+} */
 
 
 /* foooterrrr */
@@ -322,6 +322,37 @@ footer a, footer ul{
     --bs-gutter-x: 0rem;
 }
 
+
+
+
+/* ventana modal */
+
+.modal-container{
+    background-color: var(--color2);
+    height: 30%;
+    width: 30%;
+    border: var(--color1);
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.modal_container>h1{
+    font-weight: 700;
+    font-size: 13pt;
+}
+
+.modal-container>img{
+    height: 40%;
+}
+
+.modal_container>p{
+    font-weight: 700;
+    font-size: 8pt;
+}
 
 /* MEDIAQUERIESSSSSSSS */
 
