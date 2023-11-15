@@ -149,7 +149,11 @@ h1{
     font-style: normal;
 }
 
-.cursive{
+.h1, h1 {
+    font-size: calc(1.4rem + 1.5vw);
+}
+
+.cursive, .cursive_tit{
     font-family: "sloop-script-one", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -312,6 +316,36 @@ footer a, footer ul{
         transform: translateX(0%);
     }
 
+    .h1, h1 {
+        font-size: calc(0.75rem + 1.5vw);
+    }
+
+    .fotoAboutUs {
+        width: 85px;
+    }
+
+    #aboutUs > div {
+        height: 60vh;
+        filter: blur(0px);
+    }
+
+    #aboutUs {
+
+        height: 80vh;
+    }
+
+    .espacio {
+        padding: 6px;
+    }
+
+    .cursive {
+        font-size: 3em;
+    }
+
+    .row {
+        justify-content: center;
+    }
+
     
 
 }
@@ -321,6 +355,110 @@ footer a, footer ul{
 
     header{
         background-image: url(../media/inicio/Comp1_3.gif);
+    }
+
+    .h1, h1 {
+        font-size: calc(0.5rem + 1.5vw);
+    }
+
+    .fotoAboutUs {
+        width: 65px;
+    }
+
+    #aboutUs > div {
+        height: 50vh;
+        filter: blur(0px);
+    }
+
+    #aboutUs {
+
+        height: 70vh;
+    }
+
+    .espacio {
+        padding: 4px;
+    }
+
+    .cursive {
+        font-size: 1.8em;
+    }
+
+    .h1_tit{
+        font-size: 1.8em;
+    }
+
+    .cursive_tit{
+        font-size: 1.5em;
+    }
+
+}
+
+@media screen and (max-width:450px){
+
+
+    .h1, h1 {
+        font-size: 1.5em;
+    }
+
+    .fotoAboutUs {
+        width: 55px;
+    }
+
+    #aboutUs > div {
+        align-items: center;
+        flex-direction: column;
+        height: 110vh; 
+    }
+
+    #aboutUs > div > div{
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;    
+    }
+    #aboutUs {
+        padding: 1em;
+        height: 120vh;
+    }
+
+    .espacio {
+        display: none;
+    }
+
+    .cursive {
+        font-size: 2.8em;
+    }
+  
+
+    .images-preview img {
+        padding: 2em;
+    }
+
+    #menu > li:first-child {
+        padding: 1em 0 5em;
+    }
+
+    section {
+        padding: 0 0 7em 0;
+    }
+
+    .h1_tit{
+        font-size: 1.2em;
+    }
+
+    .cursive_tit{
+        font-size: 0.9em;
+    }
+
+    .title{
+        padding: 2em 0 0;
+    }
+
+    .fotoAboutUs {
+        width: 110px;
+    }
+
+    br{
+        display: none;
     }
 
 }
