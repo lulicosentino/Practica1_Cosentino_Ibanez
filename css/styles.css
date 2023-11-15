@@ -346,6 +346,10 @@ footer a, footer ul{
         justify-content: center;
     }
 
+    .h1_tit{
+        font-size: 2.8em;
+    }
+
     
 
 }
@@ -441,16 +445,17 @@ footer a, footer ul{
         padding: 0 0 7em 0;
     }
 
-    .h1_tit{
-        font-size: 1.2em;
+    .h1_tit {
+        font-size: 2.2em;
     }
 
     .cursive_tit{
-        font-size: 0.9em;
+        font-size: 2.9em;
     }
 
     .title{
         padding: 2em 0 0;
+        flex-direction: column;
     }
 
     .fotoAboutUs {
@@ -460,5 +465,7 @@ footer a, footer ul{
     br{
         display: none;
     }
+
+    
 
 }
