@@ -327,32 +327,77 @@ footer a, footer ul{
 
 /* ventana modal */
 
-.modal-container{
-    background-color: var(--color2);
-    height: 30%;
-    width: 30%;
+section.ventanamodal{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+#modal_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    background-color: var(--colorFondo);
+    height: 22%;
+    width: 26%;
     border: var(--color1);
     border-style: solid;
     border-width: 1px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    border-radius: 30px;
+    padding: 1em 2em 2em 2em;
 
 }
 
-.modal_container>h1{
+
+
+#modal_container>h1{
     font-weight: 700;
-    font-size: 13pt;
+    font-size: 40pt;
+    color: #000000;
+    letter-spacing: -1px;
 }
 
-.modal-container>img{
-    height: 40%;
+.img-container>img{
+    height: 9em !important;
 }
 
-.modal_container>p{
+#modal_container>p.text{
     font-weight: 700;
-    font-size: 8pt;
+    font-size: 18pt;
+    line-height: 1em;
+    justify-content: center;
+    text-align: center;
+    color: #000000;
+
 }
+
+p.xxx{
+    margin-bottom: 0;
+}
+
+.xxxxx{
+    text-decoration: none !important;
+    font-size: 10pt;
+    color: #000000;
+    font-size: 20pt;
+    font-family: 'forma-djr-banner';
+    font-weight: 500;
+    margin-left: 9em;
+    /* margin-bottom: 15em; */
+    
+}
+
+.xxxxx:hover{
+    color: red;
+    font-style: italic;
+    transition: .2s;
+    transition-timing-function: ease-in-out;
+}
+
+/* .x:hover{
+    fscale;
+    color: var(--grey);
+} */
 
 /* MEDIAQUERIESSSSSSSS */
 
