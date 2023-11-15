@@ -28,6 +28,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 5%;
 
 }
 
@@ -102,13 +103,34 @@ header {
 	transition-delay:.4s;
 }
 
+/* Nikon */
+
+#logoTiny{
+    align-self: center;
+    height: 3cm;
+    display: flex;
+    justify-content: center;
+    margin: 7em 0 7em 3em;
+}
+
+#logoTiny>img{
+    height: 100%;
+}
+
 /* fin menu */
 
-section{
-    margin-top: 17%;
+section#galeria{
+    margin-top: 1%;
 }
 
 /* grid-grid-grid-grid */
+
+.general-cajas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .container{
     display: flex;
     width: 100%;
@@ -121,16 +143,63 @@ div.row{
     height: 40vh;
     border-color: var(--color1);
     border-width: 1px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .row>div{
     border: var(--color1);
     border-style: solid;
-    border-width: 0.5px;
+    border-width: 1px;
+}
+
+
+.container_up{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 35%;
+    align-content: flex-start;
+    padding: 7% 0 0 0;
+}
+
+
+.container_up>img{
+    height: 25%;
+}
+
+.container_down{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.derecha-cajas, .izquierda-cajas{
+    font-weight: 700;
+    font-size: 16pt;
+}
+
+#fantasma{
+    border: none;
+    border-color: white;
 }
 
 .uno{
     background-image: url(../media/galeria/nikon_coolpix3100.jpg);
+    background-size: cover;
+    background-position: center top;
+}
+
+.dos{
+    background-image: url(../media/galeria/nikonCoolpix_2000CCD.jpg);
+    background-position: center top;
+    background-size: cover;
+}
+
+.tres{
+    background-image: url(../media/galeria/nikonCoolpix_S3300_CCd.jpg);
+    background-position: center top;
     background-size: cover;
 }
 
