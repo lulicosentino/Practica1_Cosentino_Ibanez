@@ -192,16 +192,72 @@ div.row{
 }
 
 .dos{
-    background-image: url(../media/galeria/nikonCoolpix_2000CCD.jpg);
+    background-image: url(../media/galeria/nikonCoolpix_2100_ccd.jpg);
     background-position: center top;
     background-size: cover;
 }
 
 .tres{
+    background-image: url(../media/galeria/nikonCoolpix_E2500_CCD.jpg);
+    background-position: center top;
+    background-size: cover;
+}
+
+.cuatro{
+    background-image: url(../media/galeria/nikonCoolpix_E880_CCD.jpg);
+    background-position: center top;
+    background-size: cover;
+}
+
+.cinco{
+    background-image: url(../media/galeria/nikonCoolpix_7900_CCD.jpg);
+    background-position: center top;
+    background-size: cover;
+}
+
+.seis{
+    background-image: url(../media/galeria/nikonCoolpix_4300CCD.jpg);
+    background-position: center top;
+    background-size: cover;
+}
+
+.siete{
+    background-image: url(../media/galeria/nikonCoolpix_L5_CCD.jpg);
+    background-position: center top;
+    background-size: cover;
+}
+
+.ocho{
+    background-image: url(../media/galeria/nikonCoolpix_S9300_CCD.jpg);
+    background-position: center top;
+    background-size: cover;
+}
+
+.nueve{
+    background-image: url(../media/galeria/nikonCoolpix_E3500_ccd.jpg);
+    background-position: center top;
+    background-size: cover;
+}
+
+.diez{
     background-image: url(../media/galeria/nikonCoolpix_S3300_CCd.jpg);
     background-position: center top;
     background-size: cover;
 }
+
+.once{
+    background-image: url(../media/galeria/nikonCoolpix_A100_CCD.jpg);
+    background-position: center top;
+    background-size: cover;
+}
+
+
+.doce{
+    background-image: url(../media/galeria/nikonCoolpix_S3500_CCD.jpg);
+    background-position: center top;
+    background-size: cover;
+}
+
 
 /* foooterrrr */
 
