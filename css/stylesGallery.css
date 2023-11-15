@@ -327,24 +327,33 @@ footer a, footer ul{
 
 /* ventana modal */
 
-section.ventanamodal{
+/* section.ventanamodal{
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
-}
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+} */
 
 #modal_container{
-    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
     flex-direction: column;
     align-items: center;  
     background-color: var(--colorFondo);
-    height: 22%;
+    /* height: 22%; */
     width: 26%;
     border: var(--color1);
     border-style: solid;
     border-width: 1px;
     border-radius: 50px;
     padding: 1em 2em 2em 2em;
+    
 
 }
 
@@ -382,7 +391,7 @@ p.xxx{
     font-size: 20pt;
     font-family: 'forma-djr-banner';
     font-weight: 500;
-    margin-left: 9em;
+    margin-left: 7em;
     /* margin-bottom: 15em; */
     
 }
