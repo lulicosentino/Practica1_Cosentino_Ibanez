@@ -31,6 +31,7 @@ header {
     background-image: url(../media/inicio/Comp1_1.gif);
 
 }
+/* menu para todos */
 
 #menu > li:first-child {
     display: none;
@@ -162,10 +163,7 @@ li, #ul_marcas, #li_marcas{
 
 
 
-/* #ul_marcas a:hover{
-    color: #b9b8b8;
-    transform: scale(105%);
-} */
+/* MAIN */
 
 section{
     background-color: #000000;
