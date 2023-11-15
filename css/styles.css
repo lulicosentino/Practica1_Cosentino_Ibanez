@@ -54,13 +54,18 @@ header {
     top: 0;
     justify-content: center;
 }
-#menu li{
+#menu > li{
     position: relative;
     width: 150px;
     height: 50px;
     display: flex;
 }
-#menu li a{
+
+a{
+    text-decoration:none;  
+}
+
+#menu > li > a{
 	position:absolute;
 	left:50%;
 	transform:translateX(-50%);
@@ -75,7 +80,7 @@ header {
     
 }
 
-#menu li span{
+#menu > li > span{
 	width:25%;
 	height: 95%;
 	background-color:rgb(31, 30, 30);
@@ -85,25 +90,65 @@ header {
     filter: blur(5px);
 	transition:transform .5s;
 }
-#menu li:hover span{
+#menu > li:hover span{
 	transform-origin:bottom;
 	transform:scaleY(1);
 }
-#menu li:hover a{
+#menu > li:hover a{
 	color:rgb(109, 106, 106);
 }
 
-#menu li span:first-of-type{
+#menu > li > span:first-of-type{
 	transition-delay:.1s;
 }
-#menu li span:nth-of-type(2){
+#menu > li > span:nth-of-type(2){
 	transition-delay:.2s;	
 }
-#menu li span:nth-of-type(3){
+#menu > li > span:nth-of-type(3){
 	transition-delay:.3s;
 }
-#menu li span:last-of-type{
+#menu > li > span:last-of-type{
 	transition-delay:.4s;
+}
+
+
+#ul_marcas {
+    margin: 3em 0em;
+    padding: 1em;
+    width: 100%;
+    display: none;
+    text-align: center;
+    flex-direction: column;
+    align-content: flex-start;
+    font-style: normal;
+    align-items: center;
+    background-color: black;
+    position: absolute;
+}
+
+#ul_marcas > li{
+    background-color: black;
+    display: block;
+}
+
+#ul_marcas > li:hover > a{
+    color: #b9b8b8;  
+}
+
+
+#ul_marcas a{
+    color: #979696;
+    background-color: black;
+}
+
+#li_marcas:hover > ul{
+    display: block;
+}
+
+
+#ul_marcas a:hover{
+    color: #b9b8b8;
+    transform: scale(105%);
 }
 
 section{
@@ -269,6 +314,10 @@ footer a, footer ul{
     --bs-gutter-x: 0rem;
 }
 
+ul, li{
+    list-style: none;
+}
+
 @media screen and (max-width:1200px){
 
     header{
@@ -285,6 +334,7 @@ footer a, footer ul{
         align-content: flex-start;
         align-items: flex-start;
         flex-wrap: nowrap;
+        padding-bottom: 2em;
     }
 
     #menu > li {
@@ -296,6 +346,18 @@ footer a, footer ul{
     #menu > li:first-child {
         display: inline-block;
         padding: 1em 0 4em;
+    }
+
+    #li_marcas {
+        margin-bottom: 8em;
+    }
+
+    #ul_marcas{
+        display: block;
+    }
+
+    #menu figure{
+        display: none;
     }
 
 
@@ -453,8 +515,8 @@ footer a, footer ul{
         font-size: 2.9em;
     }
 
-    .title{
-        padding: 2em 0 0;
+    .title {
+        padding: 4em 0 0;
         flex-direction: column;
     }
 
