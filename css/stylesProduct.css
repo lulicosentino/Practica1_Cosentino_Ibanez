@@ -67,6 +67,7 @@ header {
     top: 0;
     justify-content: center;
 }
+
 #menu > li{
     position: relative;
     width: 150px;
@@ -284,15 +285,25 @@ section#carrusel{
 /* ventana modal */
 
 
+/* ventana modal */
 
-
+#ventanamodal{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: none;
+}
 
 #modal_container{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: center;  
     background-color: var(--colorFondo);
@@ -306,6 +317,7 @@ section#carrusel{
     
 
 }
+
 
 
 
@@ -334,23 +346,27 @@ p.xxx{
     margin-bottom: 0;
 }
 
-.xxxxx{
+#cerrar{
     text-decoration: none !important;
     font-size: 10pt;
     color: #000000;
     font-size: 20pt;
     font-family: 'forma-djr-banner';
     font-weight: 500;
-    margin-left: 7em;
-    /* margin-bottom: 15em; */
+    padding: 1em;
     
 }
 
-.xxxxx:hover{
+#cerrar:hover{
     color: red;
     font-style: italic;
     transition: .2s;
     transition-timing-function: ease-in-out;
+}
+
+#cerrar a{
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -470,6 +486,19 @@ footer a, footer ul{
         text-decoration: none;
     }
 
+    #menu > ul:hover > div > li:first-child {
+        display: none;
+    }
+
+    #menu img{
+        border-radius: 35px;
+        padding: 0.5em;
+        width: 73px;
+        background-color: #ffffff;
+        margin-bottom: 1rem;
+
+    }
+    
     .parrafo{
         width: 45%;
     }
@@ -497,9 +526,12 @@ footer a, footer ul{
 
     .parrafo{
         width: 48%;
-    }
+
+    }    
+
 
 }
+
 
 @media screen and (max-width:950px){
     .carousel-control-prev{
@@ -508,6 +540,10 @@ footer a, footer ul{
 
     .carousel-control-next{
         right: -5% !important;
+    }
+    #modal_container{
+        width: 46%;
+
     }
 }    
 
@@ -542,9 +578,12 @@ footer a, footer ul{
 
     section#carrusel{
         width: 84vw;
-    }
+    }    
+
 
 }
+
+
 
 @media screen and (max-width:700px){
     .carousel-control-prev{
@@ -634,6 +673,15 @@ footer a, footer ul{
 
 }
 
+@media screen and (max-width: 491px){
+
+    #modal_container{
+        width: 76%;
+    }
+
+}
+
+
 @media screen and (max-width:460px){
 
     section#carrusel{
@@ -641,6 +689,10 @@ footer a, footer ul{
     }
 
 }
+
+
+
+
 
 @media screen and (max-width:395px){
     #carrusel{
@@ -660,18 +712,12 @@ footer a, footer ul{
     }
 
 
-    #infocamaras > div.textos_info > div.izq_container > div > h2 {
+    #infocamaras > div.textos_info > div.izq_container > div > h2{
         font-size: 14pt;
     }
 
-
-}
-
-
-@media screen and (max-width:350px){
     .parrafo{
         width: 100%;
     }
 
 }
-

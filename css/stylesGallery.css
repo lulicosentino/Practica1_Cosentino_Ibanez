@@ -452,7 +452,7 @@ footer a, footer ul{
 
 /* ventana modal */
 
-/* section.ventanamodal{
+#ventanamodal{
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
@@ -460,14 +460,15 @@ footer a, footer ul{
     left: 0;
     width: 100%;
     height: 100vh;
-} */
+    display: none;
+}
 
 #modal_container{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: center;  
     background-color: var(--colorFondo);
@@ -481,6 +482,7 @@ footer a, footer ul{
     
 
 }
+
 
 
 
@@ -509,24 +511,29 @@ p.xxx{
     margin-bottom: 0;
 }
 
-.xxxxx{
+#cerrar{
     text-decoration: none !important;
     font-size: 10pt;
     color: #000000;
     font-size: 20pt;
     font-family: 'forma-djr-banner';
     font-weight: 500;
-    margin-left: 7em;
-    /* margin-bottom: 15em; */
+    padding: 1em;
     
 }
 
-.xxxxx:hover{
+#cerrar:hover{
     color: red;
     font-style: italic;
     transition: .2s;
     transition-timing-function: ease-in-out;
 }
+
+#cerrar a{
+    text-decoration: none;
+    color: black;
+}
+
 
 /* .x:hover{
     fscale;
@@ -632,6 +639,10 @@ p.xxx{
         display: none;
     }
 
+    #modal_container{
+        width: 46%;
+    }
+
 }
 
 @media screen and (max-width: 700px){
@@ -646,6 +657,14 @@ p.xxx{
 
     #marcas {
         margin-top: 4em;
+    }
+
+}
+
+@media screen and (max-width: 491px){
+
+    #modal_container{
+        width: 76%;
     }
 
 }

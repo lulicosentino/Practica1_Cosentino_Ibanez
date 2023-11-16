@@ -26,6 +26,15 @@ $(document).ready(function(){
     
 });
 
+function cerrarVentana() {
+    "use strict";
+    document.getElementById("ventanamodal").style.display = "none";
+}
+
+function mostrarModal(){
+    document.getElementById("ventanamodal").style.display = "flex";
+}
+
 
 
 // function cerrar_modal(){
