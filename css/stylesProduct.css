@@ -299,7 +299,7 @@ section#carrusel{
 }
 
 #modal_container{
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -308,13 +308,13 @@ section#carrusel{
     align-items: center;  
     background-color: var(--colorFondo);
     /* height: 22%; */
-    width: 26%;
+    width: 36%;
     border: var(--color1);
     border-style: solid;
     border-width: 1px;
     border-radius: 50px;
     padding: 1em 2em 2em 2em;
-    
+    z-index: 4;
 
 }
 

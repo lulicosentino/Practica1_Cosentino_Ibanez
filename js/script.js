@@ -41,6 +41,13 @@ $(document).ready(function(){
         }
     });
 
+    $(".uno").click(function(){
+
+        var url = "producto.html";
+          $(location).attr('href',url);
+
+    });
+
     $(".dos").click(function(){
 
         var url = "producto.html";
