@@ -126,7 +126,7 @@
 
                         <div class="container_up">
                             <img src="media/galeria/icons/like.svg" alt="">
-                            <img src="media/galeria/icons/carro.svg" alt="" onclick="ventana_modal()">
+                            <img src="media/galeria/icons/carro.svg" alt="" onclick="mostrarModal()">
                         </div>
         
                         <div class="container_down">
@@ -141,7 +141,7 @@
 
                         <div class="container_up">
                             <img src="media/galeria/icons/like.svg" alt="" class="icon-hover">
-                            <img src="media/galeria/icons/carro.svg" alt="" class="icon-hover">
+                            <img src="media/galeria/icons/carro.svg" alt="" class="icon-hover" onclick="mostrarModal()">
                         </div>
         
                         <div class="container_down">
@@ -154,7 +154,7 @@
 
                         <div class="container_up">
                             <img src="media/galeria/icons/like.svg" alt="">
-                            <img src="media/galeria/icons/carro.svg" alt="">
+                            <img src="media/galeria/icons/carro.svg" alt="" onclick="mostrarModal()">
                         </div>
         
                         <div class="container_down">
@@ -172,7 +172,7 @@
 
                         <div class="container_up">
                             <img src="media/galeria/icons/like.svg" alt="">
-                            <img src="media/galeria/icons/carro.svg" alt="">
+                            <img src="media/galeria/icons/carro.svg" alt="" onclick="mostrarModal()">
                         </div>
     
                         <div class="container_down">
@@ -185,7 +185,7 @@
 
                         <div class="container_up">
                             <img src="media/galeria/icons/like.svg" alt="">
-                            <img src="media/galeria/icons/carro.svg" alt="">
+                            <img src="media/galeria/icons/carro.svg" alt="" onclick="mostrarModal()">
                         </div>
     
                         <div class="container_down">
@@ -203,7 +203,7 @@
   
                         <div class="container_up">
                             <img src="media/galeria/icons/like.svg" alt="">
-                            <img src="media/galeria/icons/carro.svg" alt="">
+                            <img src="media/galeria/icons/carro.svg" alt="" onclick="mostrarModal()">
                         </div>
   
                         <div class="container_down">
@@ -218,7 +218,7 @@
   
                         <div class="container_up">
                             <img src="media/galeria/icons/like.svg" alt="">
-                            <img src="media/galeria/icons/carro.svg" alt="">
+                            <img src="media/galeria/icons/carro.svg" alt="" onclick="mostrarModal()">
                         </div>
   
                         <div class="container_down">
@@ -231,7 +231,7 @@
   
                         <div class="container_up">
                             <img src="media/galeria/icons/like.svg" alt="">
-                            <img src="media/galeria/icons/carro.svg" alt="">
+                            <img src="media/galeria/icons/carro.svg" alt="" onclick="mostrarModal()">
                         </div>
   
                         <div class="container_down">
@@ -249,7 +249,7 @@
   
                         <div class="container_up">
                             <img src="media/galeria/icons/like.svg" alt="">
-                            <img src="media/galeria/icons/carro.svg" alt="">
+                            <img src="media/galeria/icons/carro.svg" alt="" onclick="mostrarModal()">
                         </div>
   
                         <div class="container_down">
@@ -262,7 +262,7 @@
   
                         <div class="container_up">
                             <img src="media/galeria/icons/like.svg" alt="">
-                            <img src="media/galeria/icons/carro.svg" alt="">
+                            <img src="media/galeria/icons/carro.svg" alt="" onclick="mostrarModal()">
                         </div>
   
                         <div class="container_down">
@@ -279,7 +279,7 @@
   
                         <div class="container_up">
                             <img src="media/galeria/icons/like.svg" alt="">
-                            <img src="media/galeria/icons/carro.svg" alt="">
+                            <img src="media/galeria/icons/carro.svg" alt="" onclick="mostrarModal()">
                         </div>
   
                         <div class="container_down">
@@ -295,7 +295,7 @@
   
                         <div class="container_up">
                             <img src="media/galeria/icons/like.svg" alt="">
-                            <img src="media/galeria/icons/carro.svg" alt="">
+                            <img src="media/galeria/icons/carro.svg" alt="" onclick="mostrarModal()">
                         </div>
   
                         <div class="container_down">
@@ -310,12 +310,13 @@
 
         </section>
 
-        <section class="ventanamodal">
+        <section id="ventanamodal">
             
 
             <div id="modal_container">
 
-                <span onclick="cerrar_modal"><a href="#logoTiny" class="xxxxx">X</a></span>
+                <span id="cerrar" onclick="cerrarVentana()">
+                    <a href="gallery.html">x</a></span>
                 <h1>TinyLens</h1>
                 <figure class="img-container"><img src="media/galeria/icons/caritolleno.png" alt=""></figure>
                 
