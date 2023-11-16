@@ -594,6 +594,10 @@ footer a, footer ul{
         right: -20% !important;
     }
 
+    #infocamaras > div.textos_info > div.izq_container{
+        margin-top: 2em;
+    }
+
 }
 
 @media screen and (max-width:550px){
