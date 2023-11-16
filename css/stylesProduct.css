@@ -357,3 +357,10 @@ footer a, footer ul{
 
 
 /* mediaqueries */
+
+@media screen and (max-width:1200px){
+    .parrafo{
+        width: 45%;
+
+    }
+}
