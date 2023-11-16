@@ -1,12 +1,18 @@
+/* probando si se te actualizan mis cambios */
+*{
+    font-family: "forma-djr-deck", sans-serif;
+    font-weight: 500;
+    font-style: normal; 
+}
 :root {
     --colorFondo: #e6e6e6;
-    --tipoTitulos: 'Playfair Display', serif;
-    --tipoGeneral: 'Unbounded', cursive;
-    --color1: #ffffff;
+    --tipoTitulos: "forma-djr-deck", sans-serif;
+    --tipoGeneral: "forma-djr-deck", sans-serif 400;
+    --color1: #000000;
     --color2: #767b99;
     --color3: #000000;
     --color4: #0d1b3b;
-    --color5: #3a4f70;
+    --color5: #f4fcff;
 }
 
 /* header#producthtml {
@@ -50,6 +56,8 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    margin-bottom: 4em;
 
 }
 
@@ -130,10 +138,13 @@ section {
 }
 
 
+
 /* CARRUSEL */
 
 section#carrusel{
-    margin-top: 5em;
+    margin-top: 8em;
+    margin: auto;
+    width: 70vw;
 }
 
 .carousel-control-next, .carousel-control-prev {
@@ -164,6 +175,65 @@ section#carrusel{
 .carousel-item-next, .carousel-item-prev, .carousel-item.active {
     display: flex !important;
     justify-content: center;
+}
+
+/* info camarita */
+
+#infocamaras{
+    display: flex;
+    flex-direction: column;
+    padding: 0 5em;
+    margin-bottom: 0 !important;
+
+}
+
+
+.iconos_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 10%;
+}
+
+.iconos_container>img{
+    height: 2.5em;
+    margin: 0 2em 1em;
+}
+
+.iconos_container>img:hover{
+    scale: 130%;
+    transition: 1s ease-out;
+}
+
+
+.textos_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.izq_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+#infocamaras > div.textos_info > div.izq_container > div > h1{
+    font-weight: 700 !important;
+    margin-bottom: -.25em;
+}
+
+#infocamaras > div.textos_info > div.izq_container > p{
+    font-weight: 700 !important;
+    font-size: 20pt;
+}
+
+
+.parrafo{
+    margin-top: 1em;
+    width: 30%;
+    text-align: justify;
 }
 
 
@@ -213,3 +283,5 @@ footer a, footer ul{
     --bs-gutter-x: 0rem;
 }
 
+
+/* mediaqueries */
