@@ -26,7 +26,7 @@ $(document).ready(function(){
         var width = $(window).width();
         if(width < 1200){
             $('div').removeClass('gap-5');
-            $('div').addClass('gap-6');
+            $('div').addClass('gap-4');
 
         }
     });
@@ -36,7 +36,7 @@ $(document).ready(function(){
         var width = $(window).width();
         if(width > 1200){
             $('div').removeClass('gap-5');
-            $('div').addClass('gap-3');
+            $('div').addClass('gap-6');
 
         }
     });
