@@ -404,7 +404,6 @@ footer a, footer ul{
 
 /* MEDIAQUERIESSSSSSSS */
 
-
 @media screen and (max-width:1200px){
 
 
@@ -471,11 +470,10 @@ footer a, footer ul{
         text-decoration: none;
     }
 
+
     #menu > ul:hover > div > li:first-child {
         display: none;
     }
-
-
 
     #menu img{
         border-radius: 35px;
