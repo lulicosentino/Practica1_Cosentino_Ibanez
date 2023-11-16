@@ -272,7 +272,7 @@ section#galeria{
 
 div.row{
     display: flex;
-    height: 40vh;
+    /* height: 40vh; */
     border-color: var(--color1);
     border-width: 1px;
     display: flex;
@@ -545,9 +545,9 @@ p.xxx{
 
 
 @media screen and (max-width:1200px){
-    div.row {
+    /* div.row {
         height: 41vh;
-    }
+    } */
 
     .container_down>h1{
         font-size: 13pt;
@@ -642,9 +642,9 @@ p.xxx{
         display: none;
     }
 
-    div.row {
+    /* div.row {
         height: 37vh;
-    }
+    } */
 }
 
 @media screen and (max-width: 700px){
