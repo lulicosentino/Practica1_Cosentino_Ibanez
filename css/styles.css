@@ -126,7 +126,6 @@ a{
     background-color: black;
     position: absolute;
     transition-timing-function: ease-in 1s;
-    opacity: 0;
 }
 
 #ul_marcas > li{
@@ -353,6 +352,12 @@ ul, li{
         align-items: flex-start;
         flex-wrap: nowrap;
         padding-bottom: 2em;
+        background-color: #00000000;
+        transition: 1s;
+    }
+
+    #menu:hover {
+        background-color: #000000;
     }
 
     #menu > li {
@@ -428,6 +433,15 @@ ul, li{
 
     .h1_tit{
         font-size: 2.8em;
+    }
+
+    #menu img{
+        border-radius: 35px;
+        padding: 0.5em;
+        width: 73px;
+        background-color: #000000;
+        margin-bottom: 1rem;
+        
     }
 
     
