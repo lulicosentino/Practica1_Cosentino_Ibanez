@@ -21,6 +21,26 @@ $(document).ready(function(){
 
     });
 
+    $(window).resize(function(){
+        console.log('a ver?');
+        var width = $(window).width();
+        if(width < 1200){
+            $('div').removeClass('gap-5');
+            $('div').addClass('gap-6');
+
+        }
+    });
+
+    $(window).resize(function(){
+        console.log('a ver?');
+        var width = $(window).width();
+        if(width > 1200){
+            $('div').removeClass('gap-5');
+            $('div').addClass('gap-3');
+
+        }
+    });
+
 
 
     
