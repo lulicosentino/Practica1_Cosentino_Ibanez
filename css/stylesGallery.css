@@ -637,10 +637,7 @@ p.xxx{
 }
 
 @media screen and (max-width: 991px){
-    /* RINCONES */
-    div#fantasma{
-        display: none;
-    }
+
 
     div.row {
         height: 37vh;
