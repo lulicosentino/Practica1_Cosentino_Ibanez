@@ -160,6 +160,10 @@ li, #ul_marcas, #li_marcas{
     opacity: 1;
 }
 
+ol, ul {
+    padding-left: 1rem !important;
+}
+
 
 
 
