@@ -407,59 +407,6 @@ footer a, footer ul{
 @media screen and (max-width:1200px){
 
 
-    div.row {
-        height: 50vh;
-    }
-
-    #menu {
-
-        display: flex;
-        position: fixed;
-        top: 0;
-        justify-content: center;
-        flex-direction: column;
-        align-content: flex-start;
-        align-items: flex-start;
-        flex-wrap: nowrap;
-    }
-
-    #menu > li {
-        display: none;
-        width: 0;
-        transition: .3s;
-    }
-
-    #menu > li:first-child {
-        display: inline-block;
-        padding: 1em 0 4em;
-    }
-
-
-    
-    #menu:hover li {
-        display: inline-block;
-    }
-
-    #menu > ul:hover > div > li:first-child {
-        display: none;
-    }
-
-    #menu img{
-        border-radius: 35px;
-        padding: 0.5em;
-        width: 73px;
-        background-color: #ffffff;
-        margin-bottom: 1rem;
-        
-    }
-
-
-
-}
-
-@media screen and (max-width:1200px){
-
-
     /* menu */
 
 
@@ -523,8 +470,204 @@ footer a, footer ul{
         text-decoration: none;
     }
 
+    .parrafo{
+        width: 45%;
+    }
+
+    #carrusel{
+        scale: 90%;
+    }
+
+    .izq_container{
+        margin-top: 1%;
+    }
+
+
+}
+
+@media screen and (max-width:1060px){
+
+    section#carrusel{
+        width: 75vw;
+    }
+
+    .izq_container{
+        margin-top: 2%;
+    }
+
+    .parrafo{
+        width: 48%;
+    }
+
+}
+
+@media screen and (max-width:950px){
+    .carousel-control-prev{
+        left: -5% !important;
+    }
+
+    .carousel-control-next{
+        right: -5% !important;
+    }
+}    
+
+@media screen and (max-width:840px){
+
+    #carrusel{
+        scale: 80%;
+    }
+
+    .carousel-control-prev{
+        left: -10% !important;
+    }
+
+    .carousel-control-next{
+        right: -10% !important;
+    }
+}
+
+@media screen and (max-width:750px){
+
+    #carrusel{
+        scale: 74%;
+    }
+
+    .parrafo{
+        width: 70%;
+    }
+
+    .izq_container{
+        margin-top: 4%;
+    }
+
+    section#carrusel{
+        width: 84vw;
+    }
+
+}
+
+@media screen and (max-width:700px){
+    .carousel-control-prev{
+        left: -15% !important;
+    }
+
+    .carousel-control-next{
+        right: -15% !important;
+    }
+}
+
+@media screen and (max-width:660px){
+
+    #carrusel{
+        scale: 60%;
+    }
+
+    #infocamaras > div.textos_info > div.izq_container > div > h1{  
+        font-size: 20pt;
+    }
+    #infocamaras > div.textos_info > div.izq_container > p{
+        font-size: 20pt;
+
+    }
+    #infocamaras > div.textos_info > div.izq_container > div > h2{
+        /* font-size: ; */
+        font-size: 20pt;
+    }
+
+    .iconos_container{
+        height: 8%;
+    }
+    
+    .iconos_container>img{
+        height: 2.25em;
+    }
+
+    section#carrusel{
+        width: 90vw;
+    }
+
+    .carousel-control-prev{
+        left: -20% !important;
+    }
+
+    .carousel-control-next{
+        right: -20% !important;
+    }
+
+}
+
+@media screen and (max-width:550px){
+
+    section#infocamaras{
+        padding: 0 4em;
+    }
+
+    #infocamaras > div.textos_info > div.izq_container > div > h1{  
+        font-size: 17pt;
+    }
+    #infocamaras > div.textos_info > div.izq_container > p{
+        font-size: 15pt;
+
+    }
+
+    .parrafo{
+        width: 85%;
+    }
+
+
+    #carouselExample > div > div.carousel-item.active > img{
+        scale: 79%;
+    }
+
+    #infocamaras > div.textos_info > div.izq_container > div > h2 {
+        font-size: 15pt;
+    }
+
+
+    .parrafo>p{
+        font-weight: 400;
+    }
+
+}
+
+@media screen and (max-width:460px){
+
+    section#carrusel{
+        width: 100vw;
+    }
+
+}
+
+@media screen and (max-width:395px){
+    #carrusel{
+        scale: 50%;
+    }
+
+    section#infocamaras{
+        padding: 0 2em;
+    }
+
+    .carousel-control-prev{
+        left: -25% !important;
+    }
+
+    .carousel-control-next{
+        right: -25% !important;
+    }
+
+
+    #infocamaras > div.textos_info > div.izq_container > div > h2 {
+        font-size: 14pt;
+    }
+
+
 }
 
 
+@media screen and (max-width:350px){
+    .parrafo{
+        width: 100%;
+    }
 
+}
 
