@@ -41,6 +41,82 @@ $(document).ready(function(){
         }
     });
 
+    $(".dos").click(function(){
+
+        var url = "producto.html";
+          $(location).attr('href',url);
+
+    });
+
+    $(".tres").click(function(){
+
+        var url = "producto.html";
+          $(location).attr('href',url);
+
+    });
+    
+    $(".cuatro").click(function(){
+
+        var url = "producto.html";
+          $(location).attr('href',url);
+
+    });
+
+    $(".cinco").click(function(){
+
+        var url = "producto.html";
+          $(location).attr('href',url);
+
+    });
+
+    $(".seis").click(function(){
+
+        var url = "producto.html";
+          $(location).attr('href',url);
+
+    });
+
+    $(".siete").click(function(){
+
+        var url = "producto.html";
+          $(location).attr('href',url);
+
+    });
+
+    $(".ocho").click(function(){
+
+        var url = "producto.html";
+          $(location).attr('href',url);
+
+    });
+
+    $(".nueve").click(function(){
+
+        var url = "producto.html";
+          $(location).attr('href',url);
+
+    });
+
+    $(".diez").click(function(){
+
+        var url = "producto.html";
+          $(location).attr('href',url);
+
+    });
+
+    $(".once").click(function(){
+
+        var url = "producto.html";
+          $(location).attr('href',url);
+
+    });
+
+    $(".doce").click(function(){
+
+        var url = "producto.html";
+          $(location).attr('href',url);
+
+    });
 
 
     
